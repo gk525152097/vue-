@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组件开发1</title>
+</head>
+<body>
+    <!-- 创建挂载点 -->
+    <div id="app">
+        <!-- 引入组件 -->
+        <!-- 双向绑定value -->
+        <!-- 设置传入 max=10 和 min=0  -->
+        <input-number v-model="value" :max="100" :min="0"></input-number>
+    </div>
+    <!-- vue引入 -->
+    <script src="../vue.js"></script>
+    <!-- 组件引入 -->
+    <script src="input-number.js"></script>
+    <!-- js引入 -->
+    <script src="index.js"></script>
+</body>
+</html>
